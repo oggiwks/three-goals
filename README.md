@@ -1,7 +1,3 @@
-Here’s a polished, tailored **README.md** for your **Three Goals** app:
-
----
-
 # Three Goals 🎯
 
 A minimalist, full-stack goal tracking app built with Next.js, PostgreSQL, and Shadcn UI—designed to help users set, track, and reflect on **three meaningful daily goals**.
@@ -159,7 +155,3 @@ Contributions are welcome! To get involved:
 ## 📜 License
 
 MIT © 2025 oggiwks
-
----
-
-**Three Goals** is your compact, powerful tool for meaningful daily focus. Let me know if you'd like any adjustments or additions!
