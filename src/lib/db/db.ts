@@ -5,10 +5,10 @@ import { Database } from "@/lib/db/types";
 export const dialect = new PostgresDialect({
   pool: new Pool({
     database: "three_goals",
-    host: process.env.DB_HOST,
-    password: process.env.DB_PASSWORD,
-    user: process.env.DB_USER,
-    port: Number(process.env.DB_PORT ?? "5432"),
+    host: process.env.POSTGRES_HOST,
+    password: process.env.POSTGRES_PASSWORD,
+    user: process.env.POSTGRES_USER,
+    port: Number(process.env.POSTGRES_PORT ?? "5432"),
     max: 10,
   }),
 });
