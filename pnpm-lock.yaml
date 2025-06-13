@@ -68,6 +68,9 @@ importers:
       kysely:
         specifier: 0.28.2
         version: 0.28.2
+      kysely-ctl:
+        specifier: 0.12.2
+        version: 0.12.2(kysely@0.28.2)
       lucide-react:
         specifier: 0.503.0
         version: 0.503.0(react@19.1.0)
@@ -141,9 +144,6 @@ importers:
       eslint-plugin-react-hooks:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.25.1(jiti@2.4.2))
-      kysely-ctl:
-        specifier: ^0.12.2
-        version: 0.12.2(kysely@0.28.2)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
