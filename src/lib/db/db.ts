@@ -10,6 +10,10 @@ export const dialect = new PostgresDialect({
     user: process.env.POSTGRES_USER,
     port: Number(process.env.POSTGRES_PORT ?? "5432"),
     max: 10,
+    ssl:
+      process.env.ENVIRONMENT === "production"
+        ? { rejectUnauthorized: false }
+        : false,
   }),
 });
 
