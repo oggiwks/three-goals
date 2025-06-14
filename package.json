@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev --turbopack -p 9001",
-    "build": "pnpm migrate:up && next build",
+    "build": "pnpm migrate:latest && next build",
     "start": "next start -p 9001",
+    "migrate:latest": "kysely migrate:latest",
     "migrate:up": "kysely migrate:up",
     "migrate:make": "kysely migrate:make",
     "migrate:down": "kysely migrate:down",
