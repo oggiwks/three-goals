@@ -49,7 +49,7 @@ A minimalist, full-stack goal tracking app built with Next.js, PostgreSQL, and S
 2. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm i
    ```
 
 3. **Configure environment variables**
@@ -65,7 +65,7 @@ A minimalist, full-stack goal tracking app built with Next.js, PostgreSQL, and S
 4. **Run migrations**
 
    ```bash
-   npm run migrate:up
+   pnpm run migrate:up
    ```
 
 ### Development
@@ -73,7 +73,7 @@ A minimalist, full-stack goal tracking app built with Next.js, PostgreSQL, and S
 Start the app in development mode on port 9001:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Visit `http://localhost:9001` to get started.
@@ -119,13 +119,13 @@ src/
 
 ## 🔧 Scripts
 
-| Command                               | Description                                  |
-| ------------------------------------- | -------------------------------------------- |
-| `npm run dev`                         | Launches the Next.js dev server at port 9001 |
-| `npm run build`                       | Builds production optimized app              |
-| `npm run start`                       | Starts production server using port 9001     |
-| `npm run migrate:up` / `migrate:down` | Apply or undo database migrations            |
-| `npm run lint`                        | Run ESLint and fix formatting issues         |
+| Command                            | Description                                  |
+|------------------------------------| -------------------------------------------- |
+| `pnpm dev`                         | Launches the Next.js dev server at port 9001 |
+| `pnpm build`                       | Builds production optimized app              |
+| `pnpm start`                       | Starts production server using port 9001     |
+| `pnpm migrate:up` / `migrate:down` | Apply or undo database migrations            |
+| `pnpm lint`                        | Run ESLint and fix formatting issues         |
 
 ---
 
