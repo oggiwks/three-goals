@@ -9,8 +9,8 @@ export const config = {
 
 const ratelimit = new Ratelimit({
   redis: kv,
-  // 5 requests from the same IP in 10 seconds
-  limiter: Ratelimit.slidingWindow(5, "10 s"),
+  // 20 requests from the same IP in 10 seconds
+  limiter: Ratelimit.slidingWindow(20, "10s"),
 });
 
 export const middleware = async (
